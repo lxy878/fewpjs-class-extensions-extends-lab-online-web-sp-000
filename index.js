@@ -16,7 +16,8 @@ class Triangle extends Polygon{
   isValid(){
     let v = this.array[array.length-1];
     for(let i=1; i<this.array.length; i++){
-      if(this.array[i-1]+this.array[i]<v)
+      if(this.array[i-1]+this.array[i]<v) return false
+      v = this.array[i-1]
     }
   }
 }
