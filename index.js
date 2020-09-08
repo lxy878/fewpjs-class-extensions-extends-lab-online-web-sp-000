@@ -1,6 +1,6 @@
 class Polygon{
   constructor(array){
-    this.array = array
+    this.array = array;
   }
 
 }
