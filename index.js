@@ -23,3 +23,5 @@ class Triangle extends Polygon{
     return true;
   }
 }
+
+new Triangle([3,4,5]);
