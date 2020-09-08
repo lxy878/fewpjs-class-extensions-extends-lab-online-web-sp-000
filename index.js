@@ -13,5 +13,7 @@ class Polygon{
 }
 
 class Triangle extends Polygon{
-
+  isValid(){
+    let v = this.array[array.length-1];
+  }
 }
