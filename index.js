@@ -23,5 +23,10 @@ class Square extends Polygon{
   get area(){
     return this.array[0] ** 2;
   }
+  get isValid(){
+    const a = this.array;
+    for(let i=1; i<a.length; i++)
+      if(a[i-1]!=a[i]) return false;
+  }
 }
 // console.log(new Triangle([ 15, 10, 1 ]).isValid());
