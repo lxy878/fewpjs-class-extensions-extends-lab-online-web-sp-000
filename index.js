@@ -11,3 +11,7 @@ class Polygon{
     return this.array.reduce((s,n)=>s+n, 0);
   }
 }
+
+class Triangle extends Polygon{
+
+}
