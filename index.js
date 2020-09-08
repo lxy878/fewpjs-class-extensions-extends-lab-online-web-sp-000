@@ -14,7 +14,8 @@ class Polygon{
 
 class Triangle extends Polygon{
   isValid(){
-    const a = this array
+    const a = this.array;
+    return a[0]+a[1]<a[2]||a[1]+a[2]<a[0]||a[2]+a[0]<a[1]
   }
 }
 
