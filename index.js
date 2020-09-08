@@ -19,4 +19,9 @@ class Triangle extends Polygon{
   }
 }
 
+class Square extends Polygon{
+  get area(){
+    
+  }
+}
 // console.log(new Triangle([ 15, 10, 1 ]).isValid());
