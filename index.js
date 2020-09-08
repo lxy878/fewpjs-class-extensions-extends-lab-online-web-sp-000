@@ -3,4 +3,8 @@ class Polygon{
     this.array = array;
   }
 
+  get countSides(){
+    return this.array.length;
+  }
+
 }
