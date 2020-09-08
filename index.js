@@ -24,4 +24,4 @@ class Triangle extends Polygon{
   }
 }
 
-new Triangle([3,4,5]);
+new Triangle([3,4,5]).isValid();
