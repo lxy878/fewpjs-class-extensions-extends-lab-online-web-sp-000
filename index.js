@@ -19,4 +19,4 @@ class Triangle extends Polygon{
   }
 }
 
-console.log(new Triangle([ 5, 5, 5 ]).isValid());
+console.log(new Triangle([ 15, 10, 1 ]).isValid());
