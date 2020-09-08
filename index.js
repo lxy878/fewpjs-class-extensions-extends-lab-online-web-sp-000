@@ -20,5 +20,6 @@ class Triangle extends Polygon{
       // if(this.array[i-1]+this.array[i]<v) return false
       v = this.array[i-1];
     }
+    return true
   }
 }
