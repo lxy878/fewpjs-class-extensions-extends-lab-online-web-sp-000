@@ -8,6 +8,6 @@ class Polygon{
   }
 
   get perimeter(){
-    this.array.reduce((s,n)=>s+n, 0)
+    this.array.reduce((s,n)=>s+n, 0);
   }
 }
